@@ -1,4 +1,4 @@
- 
+
 *{
   margin:0px;
   padding: 0px;
@@ -844,3 +844,71 @@ nav ul .pcmenu li span:before{
 .close-navbar-toggler.collapsed{
   z-index:-1;
 }
+
+  .progress-circul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .circular-progress {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
+  .circular-progress:before {
+    content: "";
+    position: absolute;
+    height: 84%;
+    width: 84%;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+  .value-container {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    color: #231c3d;
+  }
+ .progress-bar-personal {
+    width: calc(100% - 6px);
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+  }
+
+  .progress-bar-fill {
+    background-color: #3e64ff;
+    box-shadow: none;
+    font-size: 12px;
+    line-height: 1.2;
+    position: relative;
+    overflow: visible;
+    border-radius: 2px;
+    transition: width 5s ease-in-out;
+  }
+
+
+  .crsr1{
+    cursor: url("../image/curser/1.png"), auto;
+  }
+  .crsr2{
+    cursor: url("../image/curser/2.png"), auto;
+  }  
+  .crsr3{
+    cursor: url("../image/curser/3.png"), auto;
+  }
+  .crsr4{
+    cursor: url("../image/curser/4.png"), auto;
+  }
+  .crsr5{
+    cursor: url("../image/curser/5.png"), auto;
+  }
+
+
