@@ -219,7 +219,7 @@ $(window).one('scroll', function() {
 
         let progressValue4 = 0;
         let progressEndValue4 = 12;
-        let speed4 = 100;
+        let speed4 = 350;
 
         let progress4 = setInterval(() => {
           progressValue4++;
